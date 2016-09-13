@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Examples</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <!-- 为移动设备添加 viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="" rel="stylesheet">
+    <!-- iOS 图标 -->
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57x57-precomposed.png">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+    <link rel="shortcut icon" href="path/to/favicon.ico">
+    <style type="text/css">
+    body {
+        min-width: 600px;
+        /* 2*sub + extra */
+    }
+    
+    .container {
+        padding-left: 210px;
+        padding-right: 190px;
+    }
+    
+    .main {
+        float: left;
+        width: 100%;
+        height: 300px;
+        background-color: rgba(255, 0, 0, .5);
+    }
+    
+    .sub {
+        position: relative;
+        left: -210px;
+        float: left;
+        width: 200px;
+        height: 300px;
+        margin-left: -100%;
+        background-color: rgba(0, 255, 0, .5);
+        /*opacity: 0;*/
+    }
+    
+    .extra {
+        position: relative;
+        right: -190px;
+        float: left;
+        width: 180px;
+        height: 300px;
+        margin-left: -180px;
+        background-color: rgba(0, 0, 255, .5);
+        /*opacity: 0;*/
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main"></div>
+        <div class="sub"></div>
+        <div class="extra"></div>
+    </div>
+</body>
+
+</html>
