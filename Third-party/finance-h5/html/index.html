@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>淘宝弹性布局方案lib-flexible实践</title>
+    <meta charset="UTF-8">
+    <script src="js/lib/flexible.js?v=@@version"></script>
+    <base href="@@baseUrl">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="">
+    <meta name="keywords" content="金融匯">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="stylesheet" href="css/index.css?v=@@version"/>
+</head>
+<body>
+<h1 class="thumbnails" style="display:none">
+    <img src="img/d_logo.jpg?v=@@version"/>
+</h1>
+<div id="container">
+    <div class="section">
+        <h1 id="logo" class="img"></h1>
+        <div class="page1-bg img"></div>
+        <div class="bg-wrapper bg-wrapper-mobile">
+            <div class="page1-mobile img"></div>
+        </div>
+        <div class="btn-area btns-download bg-wrapper">
+            <a href="javascript:;" class="btn img btn-android"></a>
+            <a href="javascript:;" class="btn img btn-ios"></a>
+        </div>
+    </div>
+</div>
+<script data-main="js/mod/index.js?v=@@version" src="js/lib/require.js?v=@@version"></script>
+</body>
+</html>

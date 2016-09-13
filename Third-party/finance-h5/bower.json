@@ -1,0 +1,9 @@
+{
+  "name": "trade",
+  "private": true,
+  "dependencies": {
+    "jquery": "latest",
+    "requirejs": "~2.1.20",
+    "fullpage.js": "~2.7.6"
+  }
+}

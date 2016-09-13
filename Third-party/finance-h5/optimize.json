@@ -1,0 +1,8 @@
+[
+    {
+        "name": "../mod/index",
+        "include": [
+            "app/mod/index"
+        ]
+    }
+]

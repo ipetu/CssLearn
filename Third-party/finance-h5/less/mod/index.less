@@ -1,0 +1,116 @@
+
+@import "../fn";
+@import "../reset";
+@import "../mobile";
+@import (inline) "../lib/jquery.fullpage.css";
+
+#container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  overflow: hidden;
+
+  &:nth-child(1) {
+    background-color: #fcfcfc;
+  }
+
+  &.init {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+
+    &:first-child {
+      visibility: visible;
+    }
+  }
+}
+
+.img {
+  text-indent: -9999em;
+  background-size: 100% 100%;
+  background-position: left top;
+  background-size: 100% 100%;
+}
+
+.btn {
+  .setTapColor();
+  display: block;
+  margin: 0 auto;
+
+  .btn-area & + .btn {
+    margin-top: 40rem/@font-size-base;
+  }
+}
+
+.btns-download {
+  bottom: 82rem/@font-size-base;
+  z-index: 2;
+
+  .btn {
+    width: 414rem/@font-size-base;
+    height: 80rem/@font-size-base;
+  }
+
+  .btn-android {
+    background-image: url("../img/@2x/android.png?v=@@version");
+    [data-dpr="3"] & {
+      background-image: url("../img/@3x/android.png?v=@@version");
+    }
+  }
+  .btn-ios {
+    background-image: url("../img/@2x/iphone.png?v=@@version");
+    [data-dpr="3"] & {
+      background-image: url("../img/@3x/iphone.png?v=@@version");
+    }
+  }
+}
+
+#logo {
+  width: 173rem/@font-size-base;
+  height: 54rem/@font-size-base;
+  background-image: url("../img/@2x/logo.png?v=@@version");
+  [data-dpr="3"] & {
+    background-image: url("../img/@3x/logo.png?v=@@version");
+  }
+
+  position: absolute;
+  top: 24rem/@font-size-base;
+  left: 28rem/@font-size-base;
+}
+
+.bg-wrapper {
+  position: absolute;
+  left: 104rem/@font-size-base;
+  right: 104rem/@font-size-base;
+}
+
+.bg-wrapper.bg-wrapper-mobile {
+  top: 126rem/@font-size-base;
+}
+
+.page1-mobile {
+  width: 541rem/@font-size-base;
+  height: 1015rem/@font-size-base;
+  background-image: url("../img/@2x/page1-mobile.png?v=@@version");
+  [data-dpr="3"] & {
+    background-image: url("../img/@3x/page1-mobile.png?v=@@version");
+  }
+  margin: 0 auto;
+}
+
+.page1-bg {
+  height: 557rem/@font-size-base;
+  background-image: url("../img/@2x/page1-bg.png?v=@@version");
+  [data-dpr="3"] & {
+    background-image: url("../img/@3x/page1-bg.png?v=@@version");
+  }
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
