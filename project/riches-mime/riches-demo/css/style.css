@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors ${liuwf} (you@example.org)
+ * @date    2016-09-14 16:39:02
+ * @version $Id$
+ */
+
+body {
+    background-color: #ececec;
+}
+/*common begin style*/
+.warp {
+    width: 800px;
+    margin: 0 auto;
+}
+.volume{
+    width: 260px;
+    background-color: #fff;
+    color: #666666;
+    text-align: center;
+}
+/*common end style*/
+
+
+/*top begin style*/
+.banner-box {
+    width: 100%;
+    background-color: #3f4f66;
+    height: 400px;
+    position: relative;
+}
+.banner-box .banner {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    background: rgba(12, 15, 22, 0.3);
+}
+.header .logo {
+    width: 138px;
+    height: 50px;
+    margin: 20px 0;
+    float: left;
+    margin-right: -100%;
+}
+.header .nav {
+    float: left;
+    width: 100%;
+}
+.nav .nav-inner {
+    margin-left: 138px;
+    height: 90px;
+}
+.nav-inner ul{
+    margin-left: 60px;
+}
+.nav-inner li {
+    float: left;
+    margin-top: 36px;
+}
+.nav-inner a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+.nav-inner a:hover,.nav-inner .active {
+    color: #00d5e6;
+    border-bottom: 2px solid #00d5e6;
+}
+.nav-inner .contact{
+    padding: 26px 0;
+    float: right;
+    height: 90px;
+    font-size: 14px;
+    color: #ffae00;
+}
+/*top end style*/
+
+
+/*content begin style*/
+.volume-level{
+    margin-top: 30px;
+}
+.volume-level .primary{
+    float: left;
+    margin-right: 10px;
+}
+.volume-level .middle{
+    float: left;
+    margin-right: 10px;
+}
+.volume-level .advance{
+    float: left;
+}
+.volume-level h2{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    background: #f8f8f8 url(../images/volume-icon.png) no-repeat 170px center;
+}
+.volume-level h2.active{
+    color: #00d5e6;
+    background: #fff url(../images/volume-select-icon.png) no-repeat 170px center;
+    border-top: 2px solid #00d5e6;
+}
+.volume-level a{
+    display: block;
+    font-size: 16px;
+    line-height: 38px;
+    height: 38px;
+    text-decoration: none;
+}
+.volume-level a:hover{
+    color: #00d5e6;
+}
+.content-info{
+
+}
+/*content end style*/
+
+
+/*footer begin style*/
+/*footer end style*/
