@@ -20,6 +20,7 @@ body {
     background-color: #fff;
     color: #666666;
     text-align: center;
+    padding-bottom: 64px;
 }
 /*common end style*/
 
@@ -101,32 +102,111 @@ body {
 .volume-level .advance{
     float: left;
 }
-.volume-level h2{
+.volume-level h2 {
     height: 50px;
     line-height: 50px;
     font-size: 20px;
     background: #f8f8f8 url(../images/volume-icon.png) no-repeat 170px center;
 }
-.volume-level h2.active{
+.volume-level h2.active {
     color: #00d5e6;
     background: #fff url(../images/volume-select-icon.png) no-repeat 170px center;
     border-top: 2px solid #00d5e6;
 }
-.volume-level a{
+.volume-level  a{
     display: block;
     font-size: 16px;
-    line-height: 38px;
-    height: 38px;
+    line-height: 16px;
+    height: 16px;
+    padding-top: 20px;
     text-decoration: none;
 }
-.volume-level a:hover{
+.volume-level  a:hover,a.active{
     color: #00d5e6;
 }
 .content-info{
-
+    margin-top: 20px;
+    margin-bottom: 114px;
+}
+.content-info .avatar{
+    float: left;
+    padding: 0 20px 10px 0;
+}
+.content-info p{
+    padding-top: 28px;
+    margin-left: 260px;
+    font-weight: bold;
+    line-height: 24px;
+    height: 24px;
+    font-size: 16px;
+    color: #585858;
 }
 /*content end style*/
 
 
 /*footer begin style*/
+.link-info{
+    clear: both;
+    overflow: hidden;
+    margin-left: -28px;
+}
+.link-info a{
+    display: block;
+    width:110px;
+    height:40px;
+    float:left;
+    background-image: url(../images/link-icons.png);
+    background-repeat: no-repeat;
+    margin-left:28px;
+}
+.link-info a.china-university{
+    background-position: 0 0;
+}
+.link-info a.fo-group{
+    background-position: -138px 0;
+}
+.link-info a.china-learn{
+    background-position: -276px 0;
+}
+.link-info a.reading-clube{
+    background-position: -414px 0;
+}
+.link-info a.rich-dad{
+    background-position: -552px 0;
+}
+.link-info a.financial{
+    background-position: -690px 0;
+}
+.split-line{
+    margin-top: 30px;
+    border-top: 2px solid #d0d0d0;
+}
+.split-line h1{
+    width: 112px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    color: #24a0ab;
+    font-size: 16px;
+    background-color: #ececec;
+    text-align: center;
+    margin-top: -22px;
+}
+.site-info {
+    margin-bottom: 30px;
+}
+.site-info img{
+    float: left;
+}
+.site-info .copyright{
+    margin-left: 252px;
+    padding-left: 78px;
+    padding-top: 28px;
+    color: #878787;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
 /*footer end style*/
