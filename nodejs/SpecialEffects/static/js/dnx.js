@@ -35,6 +35,10 @@ $(function () {
             alert("这也是选中了");
         }
     });
+    var $demo = $(".demo");
+    $demo.click(function () {
+       alert("jquery click call back");
+    });
 
 }());
 

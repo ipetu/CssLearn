@@ -8,7 +8,7 @@
     <script src="js/jquery.js"></script>
 </head>
 <body>
-<div class="box">
+<div class="box clearfix">
     <ul class="menu">
         <li class="level11">
             <a href="#none">衬衫</a>
@@ -38,11 +38,46 @@
             </ul>
         </li>
     </ul>
-
-    <br>
-    <div style="display: block;width: 400px;margin: 0 auto"><input type="checkbox" id="cr" /><label for="cr">我已阅读了上面制度</label></div>
 </div>
+<div style="display: block;width: 400px;margin: 0 auto"><input type="checkbox" id="cr"/><label
+        for="cr">我已阅读了上面制度</label></div>
+
+<p onclick="demo();" style="text-align: center;background-color:aqua;margin-top: 20px;padding: 10px;">点击我</p>
+<p class="demo" onclick="demo();" style="text-align: center;background-color:aqua;margin-top: 20px;padding: 10px;">
+    点击我</p>
+<p class="classP1" style="text-align: center;background-color:aqua;margin-top: 20px;padding: 10px;">点击我1</p>
+<p class="classP2" style="text-align: center;background-color:aqua;margin-top: 20px;padding: 10px;">点击我2</p>
+
+<div class="one" id="one">
+    <div class="mini">class 为mini</div>
+</div>
+<div class="one" id="two" title="test">
+    <div class="mini" title="other">class为mini.title为other</div>
+    <div class="mini" title="test">class卫mini.title为test</div>
+</div>
+<div class="one">
+    <div class="mini">class为mini</div>
+    <div class="mini">class为mini</div>
+    <div class="mini">class为mini</div>
+    <div class="mini"></div>
+</div>
+<div class="one">
+    <div class="mini">class为mini</div>
+    <div class="mini">class为mini</div>
+    <div class="mini">class为mini</div>
+    <div class="mini" title="tesst">class为mini.title为tesst</div>
+</div>
+<div class="none" style="display: none">
+    style的display为"none"的div
+</div>
+<div class="hide">
+    class为hide的div
+</div>
+<div>
+    包含input的type为hidden的div <input type="hidden" size="8"/>
+</div>
+<span id="mover">正在执行动画的span元素</span>
 </body>
 <script src="js/customize.js"></script>
-<script src="js/dnx.js" ></script>
+<script src="js/dnx.js"></script>
 </html>
