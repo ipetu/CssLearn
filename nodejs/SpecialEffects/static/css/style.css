@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors ${liuwf} (you@example.org)
+ * @date    2016-09-14 16:39:02
+ * @version $Id$
+ */
+
+body {
+    background-color: #ececec;
+}
+/*common begin style*/
+.warp {
+    width: 1180px;
+    margin: 0 auto;
+    background-color: #000;
+}
+.volume{
+    width: 260px;
+    background-color: #fff;
+    color: #666666;
+    text-align: center;
+    padding-bottom: 64px;
+}
+/*common end style*/
+
+.banner{
+    border: 1px solid red;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    position: absolute;
+}
+.level11 {
+    margin: 10px 10px;
+    /*float: left;*/
+    width: 50px;
+    text-align: center;
+}
+.level11 li{
+    /*float: left;*/
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: indianred;
+}
