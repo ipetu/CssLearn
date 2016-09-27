@@ -238,9 +238,6 @@ body {
     float: left;
 }
 
-.shop .shop-wrap {
-}
-
 .shop-wrap .banner {
     float: left;
     width: 550px;
@@ -302,38 +299,44 @@ body {
     float: right;
     width: 230px;
 }
-.zhekou-box{
+
+.zhekou-box {
     height: 176px;
     overflow: hidden;
     width: 230px;
 }
-.zhekou img{
-    -webkit-transition:1s all;
-    -moz-transition:1s all;
-    -o-transition:1s all;
-    transition:1s all;
+
+.zhekou img {
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -o-transition: 1s all;
+    transition: 1s all;
 }
-.zhekou:hover img{
-    -webkit-transform:rotate(720deg);
-    -moz-transform:rotate(720deg);
-    -o-transform:rotate(720deg);
-    transform:rotate(720deg);
+
+.zhekou:hover img {
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    transform: rotate(720deg);
 }
-.dynamic .shop-news{
+
+.dynamic .shop-news {
     margin-top: 10px;
     border: 1px solid #dfdfdf;
 }
 
-.shop-news h2{
+.shop-news h2 {
     font-size: 12px;
     color: #717171;
     padding: 6px 12px;
     border-bottom: 1px solid #dfdfdf;
 }
-.shop-news ul{
+
+.shop-news ul {
     padding: 3px 10px;
 }
-.shop-news li{
+
+.shop-news li {
     line-height: 20px;
     height: 20px;
     color: #686868;
@@ -341,4 +344,72 @@ body {
     cursor: pointer;
 }
 
+.activity {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.activity h2 {
+    font-size: 12px;
+    color: #202020;
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.activity .activity-type {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.activity-type li {
+    float: left;
+    margin: 0 5px;
+}
+
+.activity-type li.chos {
+    padding-bottom: 3px;
+    background: url("../images/chos.gif") scroll center bottom no-repeat transparent;
+}
+
+.activity-type li a {
+    display: inline-block;
+    width: 46px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #e4e4e4;
+    color: #000;
+}
+
+.activity-type .chos a {
+    background-color: #fa5889;
+    text-decoration: none;
+    color: #fff;
+}
+
+.activity-list li {
+    float: left;
+    padding: 6px;
+}
+
+.activity-list li span{
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    background-color:#efefef ;
+    cursor: pointer;
+}
+
 /**end content style**/
+
+/**begin footer style*/
+.footer {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+/*end footer style*/
