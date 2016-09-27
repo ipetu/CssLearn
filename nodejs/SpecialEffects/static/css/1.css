@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors ${liuwf} (you@example.org)
+ * @date    2016-09-21 13:55:26
+ * @version $Id$
+ */
+
+@import url(reset.css);
+html {
+    min-width: 100%;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,Sans-serif;
+}
+.font8 {
+    font-size: 8px;
+}
+
+[data-dpr="2"] .font8 {
+    font-size: 16px;
+}
+
+[data-dpr="3"] .font8 {
+    font-size: 24px;
+}
+.box{
+    border: 1px solid red;
+    width: 6rem;
+    margin: 0 auto;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors ${liuwf} (you@example.org)
+ * @date    2016-09-14 16:39:02
+ * @version $Id$
+ */
+
+body {
+    background-color: #ececec;
+}
+/*common begin style*/
+.warp {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #bbffaa;
+    padding: 20px;
+}
+.volume{
+    width: 260px;
+    background-color: #fff;
+    color: #666666;
+    text-align: center;
+    padding-bottom: 64px;
+}
+/*common end style*/
+
+
+

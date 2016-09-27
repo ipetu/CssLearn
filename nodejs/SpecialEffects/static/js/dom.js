@@ -16,5 +16,6 @@ $(function () {
     $("ul li").click(function () {
        $(this).clone(true).appendTo("ul");
     });
+    $("p").scrollTop;
 }());
 

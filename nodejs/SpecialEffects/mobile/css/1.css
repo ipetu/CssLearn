@@ -1,0 +1,39 @@
+body {
+  width: 16rem;
+  margin: 0 auto;
+  background: #f3ecd1 url(../img/body-bg11.jpg) repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+}
+.box{
+  border: 1px solid red;
+}
+.tx{
+  font-size: 0.4rem;
+}
+.box2{
+  overflow: hidden;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid indianred;
+}
+:-webkit-full-screen a {
+  display: -webkit-box;
+  display: flex
+}
+:-moz-full-screen a {
+  display: flex
+}
+:-ms-fullscreen a {
+  display: -ms-flexbox;
+  display: flex
+}
+:fullscreen a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
